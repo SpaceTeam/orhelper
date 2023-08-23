@@ -11,7 +11,7 @@ from ._enums import *
 
 logger = logging.getLogger(__name__)
 
-CLASSPATH = os.environ.get("CLASSPATH", "OpenRocket-15.03.jar")
+CLASSPATH = os.environ.get("CLASSPATH", "OpenRocket-22.02.jar")
 
 __all__ = [
     'OpenRocketInstance',
